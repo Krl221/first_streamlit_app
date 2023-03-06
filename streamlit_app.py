@@ -24,7 +24,7 @@ my_cnx = snowflake.connector.connect(**streamlit.secrets["snowflake"])
 my_cur = my_cnx.cursor()
 
 
-streamlit.title('My Mom\'s New Healthy Diner')
+streamlit.title('My New Healthy Diner')
 
 
 streamlit.header('Breakfast Menu')
